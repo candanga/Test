@@ -1,8 +1,8 @@
 % orchis-sonoff-ebb-flow ver 01.02, GNU LGPL license, (C)2018 m.sillano
 % ---- This config can be updated, don't use ["] here
-% telnet: script https://github.com/msillano/Sonoff-ebb-and-flow/blob/master/ef0102.eub
-config ntp_server  1.pool.ntp.org
-config ntp_timezone 2
+% telnet: script https://github.com/candanga/Test/blob/main/ef0102.eub
+config ntp_server  1.north-america.pool.ntp.org
+config ntp_timezone 0
 config @6 /msillanohome/ebbflow/1
 
 on init
